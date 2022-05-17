@@ -1,6 +1,6 @@
 {
   "name": "uint8array-json-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "scripts": {
     "build": "tsc && uglifyjs -cm -o uint8array-json-parser.min.js -- uint8array-json-parser.js"
