@@ -6,7 +6,8 @@
     "build": "tsc && uglifyjs -cm -o uint8array-json-parser.min.js -- uint8array-json-parser.js"
   },
   "main": "uint8array-json-parser.js",
-  "dependencies": {
+  "types": "uint8array-json-parser.d.ts",
+  "devDependencies": {
     "typescript": "2.4.2",
     "uglify-js": "3.0.27"
   }
